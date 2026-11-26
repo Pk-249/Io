@@ -435,6 +435,7 @@
   </aside>
 
 <!-- JIDDERHS HEAVEN — PREMIUM BOTTOM NAV -->
+
 <nav class="jh-bottom-nav"
      id="jhBottomNav"
      data-active="home"
@@ -455,15 +456,22 @@
     <span>Home</span>
   </button>
 
-  <button class="jh-nav-item"
+ <button class="jh-nav-item"
           type="button"
-          
-    <svg viewBox="0 0 24 24" aria-hidden="true">
+          data-jh-tab="bag"
+          aria-label="Shopping bag">
+
+    <span class="jh-bag-icon">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
       <path d="M4 8h16l-1 13H5L4 8Z"/>
       <path d="M9 8V6a3 3 0 0 1 6 0v2"/>
     </svg>
- <a href="./shop.html"></a>
-    <span>Shop</span>
+
+      <span id="jhBottomBagCount"
+            class="jh-bottom-bag-count">0</span>
+    </span>
+     <a href="./profile.html"></a>
+    <span>Bag</span>
   </button>
 
   <button class="jh-nav-item"
